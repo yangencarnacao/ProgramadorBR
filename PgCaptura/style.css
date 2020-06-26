@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 6px;
+}
+
+.title {
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+section{
+    padding: 20px;
+    background-image: url("./img/mentoria.jpeg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer {
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 7px;
+}
+
+.mb{
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    border: none;
+    margin-bottom: 6px;
+}
+
+input[type="submit"] {
+    color: whitesmoke;
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    display: inline-block;
+    color: whitesmoke;
+    max-width: 40%;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+.description p, .description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
