@@ -1,0 +1,38 @@
+body{
+    background-color: indianred;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    height: 650px;
+    width: 350px;
+    background-color: whitesmoke;
+}
+
+.video {
+    height: 80%;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.controle {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    position: relative;
+    width: 30px;
+    top: 90%;
+    padding: 5px;
+}
+
+.btn:hover{
+    opacity: 0.90;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Play Video</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div>
+            <video id="vid" class="video" src="./assets/memelBobby.mp4"></video>
+        </div >
+
+        <div class="controle">
+            <img src="assets/back64.png" class="btn" onclick="retroceder()">
+            <img src="assets/minus64.png" class="btn" onclick="diminuir()"> 
+            <img src="assets/pause64.png" class="btn" onclick="pausar()">
+            <img src="assets/play64.png" class="btn" onclick="iniciar()">
+            <img src="assets/stop64.png" class="btn" onclick="parar()">
+            <img src="assets/plus64.png" class="btn" onclick="aumentar()">
+            <img src="assets/foward64.png" class="btn" onclick="avancar()">          
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
